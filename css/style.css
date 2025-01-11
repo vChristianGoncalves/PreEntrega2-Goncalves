@@ -14,33 +14,6 @@ a {
   text-decoration: none;
 }
 
-/* Header */
-#space__navbar {
-  background-color: #000;
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.space__logo a {
-  color: #ffffff;
-}
-
-#space__navbar ul {
-  display: flex;
-  padding-top: 13px;
-  gap: 50px;
-}
-
-#space__navbar a {
-  color: #ffffff;
-}
-
-.navbar__icons {
-  display: flex;
-  gap: 30px;
-}
-
 /* Main */
 #carousel__promotions img {
   height: 70vh;
@@ -48,6 +21,18 @@ a {
   object-fit: cover;
 }
 
-/* galery men */
+.card {
+  transition: all 0.4s;
+}
+.card:hover {
+  transform: scale(1.15);
+}
+
+/* footer */
+footer{
+  margin-top: 50px;
+  padding: 100px;
+  background-color: #000;
+}
 
 
