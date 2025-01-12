@@ -7,7 +7,7 @@
 body {
   background-color: #ffffff;
 }
- 
+
 
 li,
 a {
@@ -25,45 +25,75 @@ a {
 .card {
   transition: all 0.4s;
 }
+
 .card:hover {
   transform: scale(1.15);
 }
 
 /* footer */
-footer{
+footer {
   margin-top: 40px;
   padding: 40px;
   background-color: #000;
   color: #ffffff;
 }
 
-.footer__container{
-  display: flex;  
+.footer__container {
+  display: flex;
   align-items: center;
   padding-bottom: 25px;
   justify-content: space-between;
 
 }
 
-.footer__text{
+.footer__text {
   margin-left: 100px;
   font-size: 3rem;
+  cursor: pointer;
 }
 
-.footer__links{
+.footer__text:hover {
+  color: red;
+}
+
+.footer__links {
   display: flex;
   gap: 25px;
   margin-right: 100px;
+  cursor: pointer;
 }
 
-.footer__icons{
+.footer__links li:hover {
+  color: red;
+}
+
+.footer__icons {
   display: flex;
   justify-content: center;
   gap: 25px;
+  cursor: pointer;
 }
 
-#footer p{
+#footer p {
   display: block;
   text-align: center;
   padding: 25px;
+}
+
+/* css pagina mujer */
+
+#section__mujeres {
+  display: flex;
+  justify-content: center;
+}
+
+.categorias__mujeres {
+  display: flex;
+  padding-top: 50px;
+}
+
+.forms__mujeres {
+  gap: 55px;
+  padding-right: 200px;
+
 }
