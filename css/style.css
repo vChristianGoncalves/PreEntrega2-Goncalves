@@ -53,7 +53,7 @@ footer {
   cursor: pointer;
 }
 
-.footer__text{
+.footer__text {
   color: #ffffff;
 }
 
@@ -68,7 +68,7 @@ footer {
   cursor: pointer;
 }
 
-.footer__links a{
+.footer__links a {
   color: #ffffff;
 }
 
@@ -105,5 +105,14 @@ footer {
 .forms__mujeres {
   gap: 55px;
   padding-right: 200px;
+
+}
+
+/* css pagina contactanos */
+#formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 300px;
 
 }
