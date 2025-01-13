@@ -33,7 +33,8 @@ a {
 /* footer */
 footer {
   margin-top: 40px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   background-color: #000;
   color: #ffffff;
 }
@@ -52,6 +53,10 @@ footer {
   cursor: pointer;
 }
 
+.footer__text{
+  color: #ffffff;
+}
+
 .footer__text:hover {
   color: red;
 }
@@ -63,9 +68,14 @@ footer {
   cursor: pointer;
 }
 
-.footer__links li:hover {
+.footer__links a{
+  color: #ffffff;
+}
+
+.footer__links a:hover {
   color: red;
 }
+
 
 .footer__icons {
   display: flex;
