@@ -108,6 +108,40 @@ footer {
 
 }
 
+/* css pagina hombre */
+#section__hombres {
+  display: flex;
+  justify-content: center;
+}
+
+.categorias__hombres {
+  display: flex;
+  padding-top: 50px;
+}
+
+.forms__hombres {
+  gap: 55px;
+  padding-right: 200px;
+
+}
+
+/* css pagina zapatos */
+#section__zapatos {
+  display: flex;
+  justify-content: center;
+}
+
+.categorias__zapatos {
+  display: flex;
+  padding-top: 50px;
+}
+
+.forms__zapatos {
+  gap: 55px;
+  padding-right: 200px;
+
+}
+
 /* css pagina contactanos */
 #formulario {
   display: flex;
