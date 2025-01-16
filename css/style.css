@@ -22,7 +22,7 @@ a {
 /* Main */
 #carousel__promotions img {
   height: 70vh;
-  width: auto;
+  width: 100px;
   object-fit: cover;
 }
 
