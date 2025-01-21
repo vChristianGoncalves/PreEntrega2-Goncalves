@@ -179,6 +179,14 @@ footer {
     padding: 0px;
   }
 
+  .card{
+    transition: none;
+  }
+
+  .card:hover{
+    transform: none;
+  }
+
   .footer__links {
     margin: 0px;
     padding: 0px;
@@ -201,4 +209,19 @@ footer {
     display: none;
   }
 
+}
+
+@media screen and (max-width: 390px) {
+
+  .footer__container {
+    padding-bottom: 5px;
+  }
+
+  .card{
+    transition: none;
+  }
+
+  .card:hover{
+    transform: none;
+  }
 }
