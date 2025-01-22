@@ -1,0 +1,14 @@
+/* Main */
+#carousel__promotions img {
+    height: 70vh;
+    width: 100px;
+    object-fit: cover;
+  }
+  
+  .card {
+    transition: all 0.4s;
+  }
+  
+  .card:hover {
+    transform: scale(1.15);
+  }

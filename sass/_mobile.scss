@@ -1,0 +1,52 @@
+/* css mobile */
+@media screen and (max-width: 430px) {
+    #header i {
+      display: none;
+    }
+    .footer__container {
+      display: flex;
+      flex-direction: column;
+    }
+    #gallery__men {
+      display: none;
+    }
+    .footer__text {
+      display: flex;
+      margin: 0px;
+      padding: 0px;
+    }
+    .card {
+      transition: none;
+    }
+    .card:hover {
+      transform: none;
+    }
+    .footer__links {
+      margin: 0px;
+      padding: 0px;
+      margin-bottom: 20px;
+    }
+    #work__with__us {
+      display: none;
+    }
+    .forms__mujeres {
+      display: none;
+    }
+    .forms__hombres {
+      display: none;
+    }
+    .forms__zapatos {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .footer__container {
+      padding-bottom: 5px;
+    }
+    .card {
+      transition: none;
+    }
+    .card:hover {
+      transform: none;
+    }
+  }
