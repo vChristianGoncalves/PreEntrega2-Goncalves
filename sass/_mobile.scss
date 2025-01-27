@@ -22,6 +22,7 @@
       transform: none;
     }
     .footer__links {
+      flex-direction: column;
       margin: 0px;
       padding: 0px;
       margin-bottom: 20px;
@@ -38,6 +39,18 @@
     .forms__zapatos {
       display: none;
     }
+
+    .productos_hombres{
+      flex-direction: column;
+    }
+
+    .productos_mujeres{
+      flex-direction: column;
+    }
+
+    .productos_zapatos{
+      flex-direction: column;
+    }
   }
   @media screen and (max-width: 390px) {
     .footer__container {
@@ -48,5 +61,16 @@
     }
     .card:hover {
       transform: none;
+    }
+    .productos_hombres{
+      flex-direction: column;
+    }
+
+    .productos_mujeres{
+      flex-direction: column;
+    }
+
+    .productos_zapatos{
+      flex-direction: column;
     }
   }
