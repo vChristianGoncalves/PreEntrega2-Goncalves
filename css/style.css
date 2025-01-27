@@ -38,7 +38,7 @@ footer {
   margin-top: 40px;
   padding-top: 10px;
   padding-bottom: 20px;
-  background-color: #000;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -60,7 +60,7 @@ footer {
 }
 
 .footer__text:hover {
-  color: red;
+  color: #ff0000;
 }
 
 .footer__links {
@@ -75,7 +75,7 @@ footer {
 }
 
 .footer__links a:hover {
-  color: red;
+  color: #ff0000;
 }
 
 .footer__icons {
@@ -171,6 +171,7 @@ footer {
     transform: none;
   }
   .footer__links {
+    flex-direction: column;
     margin: 0px;
     padding: 0px;
     margin-bottom: 20px;
@@ -187,6 +188,15 @@ footer {
   .forms__zapatos {
     display: none;
   }
+  .productos_hombres {
+    flex-direction: column;
+  }
+  .productos_mujeres {
+    flex-direction: column;
+  }
+  .productos_zapatos {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 390px) {
   .footer__container {
@@ -197,6 +207,15 @@ footer {
   }
   .card:hover {
     transform: none;
+  }
+  .productos_hombres {
+    flex-direction: column;
+  }
+  .productos_mujeres {
+    flex-direction: column;
+  }
+  .productos_zapatos {
+    flex-direction: column;
   }
 }
 

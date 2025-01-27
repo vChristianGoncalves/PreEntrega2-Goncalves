@@ -1,10 +1,12 @@
 /* footer */
+@use "variables" as v;
+
 footer {
     margin-top: 40px;
     padding-top: 10px;
     padding-bottom: 20px;
-    background-color: #000;
-    color: #ffffff;
+    background-color: v.$color-primario;
+    color: v.$color-secundario;
   }
   
   .footer__container {
@@ -21,11 +23,11 @@ footer {
   }
   
   .footer__text {
-    color: #ffffff;
+    color: v.$color-secundario;
   }
   
   .footer__text:hover {
-    color: red;
+    color: v.$color-primario-hover;
   }
   
   .footer__links {
@@ -36,11 +38,11 @@ footer {
   }
   
   .footer__links a {
-    color: #ffffff;
+    color: v.$color-secundario;
   }
   
   .footer__links a:hover {
-    color: red;
+    color: v.$color-primario-hover;
   }
   
   .footer__icons {
